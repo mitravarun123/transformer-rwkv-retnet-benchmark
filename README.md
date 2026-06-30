@@ -41,6 +41,7 @@ for a fixed number of epochs on identical data and tokenizer, then compared on:
 
 *(Approximate values read from the generated charts — see `benchmark_results.json`
 and `all_graphs.png` for exact numbers.)*
+![Benchmark Results](all_graphs.png)
 
 ### Takeaways at this scale
 
