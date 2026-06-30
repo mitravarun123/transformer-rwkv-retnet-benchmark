@@ -41,8 +41,12 @@ for a fixed number of epochs on identical data and tokenizer, then compared on:
 
 *(Approximate values read from the generated charts — see `benchmark_results.json`
 and `all_graphs.png` for exact numbers.)*
+### Benchmark Results — Sequence Length 128
 ![Benchmark Results](all_graphs.png)
+### Benchmark Results — Sequence Length 256
+![Benchmark Results Seq256](all_graphs%20(1).png)
 
+*Figure: Training/validation loss, perplexity, throughput, VRAM, and GPU utilization across Transformer, RWKV, and RetNet at sequence length 256 (T4 GPU).*
 ### Takeaways at this scale
 
 - **RetNet** achieved the lowest training/validation loss and perplexity of the
